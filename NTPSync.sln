@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTPSync", "NTPSync\NTPSync.csproj", "{B79663D1-D4FC-4137-920F-75636FC47300}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSync", "TimeSync\TimeSync.csproj", "{9EF44FE1-6BB8-4B30-AC0B-D50EAB216DBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B79663D1-D4FC-4137-920F-75636FC47300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79663D1-D4FC-4137-920F-75636FC47300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B79663D1-D4FC-4137-920F-75636FC47300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B79663D1-D4FC-4137-920F-75636FC47300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF44FE1-6BB8-4B30-AC0B-D50EAB216DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF44FE1-6BB8-4B30-AC0B-D50EAB216DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF44FE1-6BB8-4B30-AC0B-D50EAB216DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF44FE1-6BB8-4B30-AC0B-D50EAB216DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {291E5F14-6405-4BAC-BA3D-50A75BA0079E}
+	EndGlobalSection
+EndGlobal
