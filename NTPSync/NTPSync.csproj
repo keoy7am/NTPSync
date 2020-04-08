@@ -81,5 +81,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TimeSync\TimeSync.csproj">
+      <Project>{9ef44fe1-6bb8-4b30-ac0b-d50eab216dbd}</Project>
+      <Name>TimeSync</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
